@@ -1,3 +1,11 @@
+**This is fork of MrGiovanni/UNetPlusPlus (https://github.com/MrGiovanni/UNetPlusPlus)**
+The project was originally licensed under the MIT license but it was then changed to the ASU license.
+I don't have any issue with the re-licensing, I appreciate the original author work and he is entitled to change the license to his liking. My understanding is from now on everyone using his library (not this fork) will do it under the ASU license, but this doesn't apply to previous version of his library that was released under the MIT license (changing the license from MIT to ASU is not retroactive).
+
+I tried to keep thing as clean as possible, I created a new branch called MIT and reset the head to the version using the MIT license. Let me know if there is a better way to handle that.
+
+Again thank you Zongwei Zhou (Zongwei Zhou) for your hard work, I really appreciate it.
+
 # UNet++: A Nested U-Net Architecture for Medical Image Segmentation
 
 UNet++ is a new general purpose image segmentation architecture for more accurate image segmentation. UNet++ consists of U-Nets of varying depths whose decoders are densely connected at the same resolution via the redesigned skip pathways, which aim to address two key challenges of the U-Net: 1) unknown depth of the optimal architecture and 2) the unnecessarily restrictive design of skip connections.
@@ -38,7 +46,7 @@ Deep Learning in Medical Image Analysis ([DLMIA](https://cs.adelaide.edu.au/~dlm
  - [FPN](http://presentations.cocodataset.org/COCO17-Stuff-FAIR.pdf)
  - [Linknet](https://arxiv.org/abs/1707.03718)
  - [PSPNet](https://arxiv.org/abs/1612.01105)
- 
+
 ### 2. Available backbones
 | Backbone model      |Name| Weights    |
 |---------------------|:--:|:------------:|
